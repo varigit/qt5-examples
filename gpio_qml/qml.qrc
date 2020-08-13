@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/circle_grey.png</file>
+        <file>images/circle_green.png</file>
+        <file>images/bottoneOn.png</file>
+        <file>images/bottoneOff.png</file>
+        <file>images/background-05.png</file>
+        <file>LedButton.qml</file>
+        <file>images/qt_vari.png</file>
+        <file>ButtonPanel.qml</file>
+        <file>Scope.qml</file>
+    </qresource>
+</RCC>
