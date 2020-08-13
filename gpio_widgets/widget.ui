@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="back_panel" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>798</width>
+     <height>478</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="MyLedSvg" name="Led4_label">
+    <property name="geometry">
+     <rect>
+      <x>206</x>
+      <y>383</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LED4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="P2_Button">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>187</y>
+      <width>120</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P2</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p4_Button">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>372</y>
+      <width>120</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P3</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="MyLed" name="Led1_label">
+    <property name="geometry">
+     <rect>
+      <x>206</x>
+      <y>99</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>LED1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="P1_Button">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>92</y>
+      <width>120</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/*
+QPushButton::enabled {
+	color: white;
+	border-image: url(:/gui/Images/bottoneOff.png);
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+QPushButton:checked {
+	border-width: 0px;
+	border-image:url(:/gui/Images/bottoneOn.png);
+}
+
+QPushButton:disabled {
+	background-color: rgb(100, 100, 100);
+	border-width: 1px;
+	border-color: rgb(169, 169, 169);
+	border-style: solid;
+	border-radius: 7;
+	padding: 3px;
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+*/</string>
+    </property>
+    <property name="text">
+     <string>P1</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="MyLed" name="Led3_label">
+    <property name="geometry">
+     <rect>
+      <x>206</x>
+      <y>288</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LED3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p3_Button">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>277</y>
+      <width>120</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P3</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title_label">
+    <property name="geometry">
+     <rect>
+      <x>395</x>
+      <y>20</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Imx GPIO Demo</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="MyLed" name="Led2_label">
+    <property name="geometry">
+     <rect>
+      <x>206</x>
+      <y>189</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LED2</string>
+    </property>
+   </widget>
+   <widget class="MyPlot" name="plotWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>110</y>
+      <width>351</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>MyPlot</class>
+   <extends>QWidget</extends>
+   <header>myplot.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MyLed</class>
+   <extends>QLabel</extends>
+   <header location="global">myled.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyLedSvg</class>
+   <extends>QLabel</extends>
+   <header location="global">myledsvg.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

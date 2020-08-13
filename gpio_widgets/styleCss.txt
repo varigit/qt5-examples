@@ -1,0 +1,57 @@
+QWidget#back_panel {
+  /*background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));*/
+  /*background-color: qlineargradient(spread:pad, x1:0.916, y1:0.904, x2:0, y2:0.00622727, stop:0 rgba(111, 120, 131, 255), stop:1 rgba(255, 255, 255, 255));*/
+  background-image: url(:/gui/Images/background-05.png);
+}
+
+/*
+QLabel {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(85, 170, 255);
+    border-radius: 20px;
+    background-color: rgb(237, 212, 0);
+}
+*/
+
+QPushButton::enabled {
+        color: white;
+        border-image: url(:/gui/Images/bottoneOff.png);
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+
+
+QPushButton:checked  {
+    border-width: 0px;
+    border-image:url(:/gui/Images/bottoneOn.png);
+}
+
+QPushButton:pressed  {
+    border-width: 0px;
+    border-image:url(:/gui/Images/bottoneOn.png);
+}
+
+
+QPushButton:disabled {
+        background-color: rgb(100, 100, 100);
+        border-width: 1px;
+        border-color: rgb(169, 169, 169);
+        border-style: solid;
+        border-radius: 7;
+        padding: 3px;
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+QLabel#title_label{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(32, 74, 135);
+    border: 4px solid rgb(160, 170, 255);
+    border-radius: 8px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+    color: rgb(0, 0, 0);
+}

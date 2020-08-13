@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/gui">
+        <file>Images/bottoneOn.png</file>
+        <file>Images/bottoneOff.png</file>
+        <file>styleCss.txt</file>
+        <file>Images/background-05.png</file>
+    </qresource>
+    <qresource prefix="/leds">
+        <file>Images/circle_green.png</file>
+        <file>Images/circle_grey.png</file>
+        <file>Images/circle_grey.svg</file>
+        <file>Images/circle_red.svg</file>
+        <file>Images/circle_yellow.svg</file>
+    </qresource>
+</RCC>
