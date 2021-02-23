@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CentralDashboard.qml</file>
+        <file>BottomBar.qml</file>
+        <file>GearView.qml</file>
+        <file>ProgressCircle.qml</file>
+        <file>GridIcons.qml</file>
+        <file>LogoImage.qml</file>
+        <file>VerticalBar.qml</file>
+        <file>OnOffIcon.qml</file>
+        <file>Speedometer.qml</file>
+    </qresource>
+    <qresource prefix="/assets">
+        <file>images/01_screen_background.png</file>
+        <file>images/02_taki_back.png</file>
+        <file>images/03_taki_top.png</file>
+        <file>images/prndl/Pr.png</file>
+        <file>images/prndl/Rr.png</file>
+        <file>images/prndl/Nr.png</file>
+        <file>images/prndl/Dr.png</file>
+        <file>images/Qt_vari_logo.png</file>
+        <file>images/engine/0A_ico_green.png</file>
+        <file>images/engine/0A_ico_red.png</file>
+        <file>images/engine/0B_ico_green.png</file>
+        <file>images/engine/0B_ico_red.png</file>
+        <file>images/engine/0C_ico_green.png</file>
+        <file>images/engine/0C_ico_red.png</file>
+        <file>images/engine/01_ico_green.png</file>
+        <file>images/engine/01_ico_red.png</file>
+        <file>images/engine/02_ico_green.png</file>
+        <file>images/engine/02_ico_red.png</file>
+        <file>images/engine/03_ico_green.png</file>
+        <file>images/engine/03_ico_red.png</file>
+        <file>images/engine/04_ico_green.png</file>
+        <file>images/engine/04_ico_red.png</file>
+        <file>images/engine/05_ico_green.png</file>
+        <file>images/engine/05_ico_red.png</file>
+        <file>images/engine/06_ico_green.png</file>
+        <file>images/engine/06_ico_red.png</file>
+        <file>images/engine/07_ico_green.png</file>
+        <file>images/engine/07_ico_red.png</file>
+        <file>images/engine/08_ico_green.png</file>
+        <file>images/engine/08_ico_red.png</file>
+        <file>images/engine/09_ico_green.png</file>
+        <file>images/engine/09_ico_red.png</file>
+    </qresource>
+</RCC>
