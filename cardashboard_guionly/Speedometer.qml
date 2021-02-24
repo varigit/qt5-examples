@@ -25,7 +25,7 @@ Item {
         id: measure
         anchors.top: speed_txt.bottom
         anchors.horizontalCenter: speed_meter.horizontalCenter
-        text: "Km/h"
+        text: "km/h"
         color: "darkgrey"
     }
 
@@ -61,7 +61,7 @@ Item {
             anchors.left: total_km_id.right
             anchors.leftMargin: 8
             anchors.verticalCenter: total_km_id.bottom
-            text: "Km"
+            text: "km"
             color: "darkgrey"
         }
     }
