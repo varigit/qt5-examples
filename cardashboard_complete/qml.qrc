@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CentralDashboard.qml</file>
+        <file>BottomBar.qml</file>
+        <file>GearView.qml</file>
+        <file>ProgressCircle.qml</file>
+        <file>GridIcons.qml</file>
+        <file>LogoImage.qml</file>
+        <file>VerticalBar.qml</file>
+        <file>OnOffIcon.qml</file>
+        <file>SpeedMeter.qml</file>
+    </qresource>
+    <qresource prefix="/assets">
+        <file>images/02_taki_back.png</file>
+        <file>images/03_taki_top.png</file>
+        <file>images/Rr.png</file>
+        <file>images/Pr.png</file>
+        <file>images/Nr.png</file>
+        <file>images/Dr.png</file>
+        <file>images/Qt_vari_logo.png</file>
+        <file>images/01_screen_background.png</file>
+        <file>images/motore/0A_ico_green.png</file>
+        <file>images/motore/0A_ico_red.png</file>
+        <file>images/motore/0B_ico_green.png</file>
+        <file>images/motore/0B_ico_red.png</file>
+        <file>images/motore/0C_ico_green.png</file>
+        <file>images/motore/0C_ico_red.png</file>
+        <file>images/motore/01_ico_green.png</file>
+        <file>images/motore/01_ico_red.png</file>
+        <file>images/motore/02_ico_green.png</file>
+        <file>images/motore/02_ico_red.png</file>
+        <file>images/motore/03_ico_green.png</file>
+        <file>images/motore/03_ico_red.png</file>
+        <file>images/motore/04_ico_green.png</file>
+        <file>images/motore/04_ico_red.png</file>
+        <file>images/motore/05_ico_green.png</file>
+        <file>images/motore/05_ico_red.png</file>
+        <file>images/motore/06_ico_green.png</file>
+        <file>images/motore/06_ico_red.png</file>
+        <file>images/motore/07_ico_green.png</file>
+        <file>images/motore/07_ico_red.png</file>
+        <file>images/motore/08_ico_green.png</file>
+        <file>images/motore/08_ico_red.png</file>
+        <file>images/motore/09_ico_green.png</file>
+        <file>images/motore/09_ico_red.png</file>
+    </qresource>
+</RCC>
